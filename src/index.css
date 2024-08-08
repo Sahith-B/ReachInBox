@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .dark {
+    background-color: #1a202c; /* dark mode background color */
+    color: #cbd5e0; /* dark mode text color */
+  }
+  
+  .light {
+    background-color: #f7fafc; /* light mode background color */
+    color: #1a202c; /* light mode text color */
+  }
