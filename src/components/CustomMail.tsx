@@ -24,7 +24,6 @@ function CustomMail({ threadId, onClose }: any) {
   });
 
   const handleSendReply = async () => {
-    // Make a POST request to send the reply
     const token = localStorage.getItem("token");
     try {
       await axios.post(
@@ -44,7 +43,7 @@ function CustomMail({ threadId, onClose }: any) {
       );
     } catch {
       console.log("Reply sent successfully");
-      onClose(); // Close the CustomMail component
+      onClose(); 
     }
   };
 
@@ -71,7 +70,7 @@ function CustomMail({ threadId, onClose }: any) {
           <div className="pl-4 text-sm">Reply</div>
           <div onClick={onClose}>
             {" "}
-            {/* Close button */}
+            
             <RxCross2 className="text-xl cursor-pointer" />
           </div>
         </div>
