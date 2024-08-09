@@ -28,7 +28,7 @@ function Login() {
             </div>
             <div
               className="mt-6 border-white/40 border px-20 py-2 text-sm  flex items-center text-[#CCCCCC] rounded-lg cursor-pointer"
-              onClick={handleGoogleLogin} // Call handleGoogleLogin function onClick
+              onClick={handleGoogleLogin}
             >
               <img src={google} alt="google" className="w-4 mr-3"></img>
               Sign Up with Google
@@ -41,7 +41,9 @@ function Login() {
             >
               Create an Account
             </Link>
-            <div className="my-8 mb-10 text-[#909296]">
+            <div className="my-8 mb-10 text-[#909296]"
+                onClick={handleGoogleLogin}
+                >
               Already have an account?{" "}
               <Link to="/signin" className="text-[#C1C2C5]">
                 Sign In
