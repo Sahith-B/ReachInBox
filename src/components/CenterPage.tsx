@@ -82,7 +82,7 @@ const CenterPage: React.FC<Props> = ({ selectedThread }) => {
               },
             }
           );
-          // @ts-ignore
+        
           setSelectedMail(res.data.data);
         } catch (error) {
           console.error("Error fetching mail:", error);
