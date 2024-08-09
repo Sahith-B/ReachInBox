@@ -29,7 +29,7 @@ function MainPage() {
       }
     }, 2500);
   
-    // Cleanup function to clear the interval when the component unmounts
+  
     return () => clearInterval(interval);
   }, []);
   
