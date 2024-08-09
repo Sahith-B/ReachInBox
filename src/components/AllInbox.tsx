@@ -25,7 +25,7 @@ function AllInbox({
 
   if (!Array.isArray(data)) {
     console.error("Data is not an array:", data);
-    return null; // or render a placeholder, or handle the error as needed
+    return null; 
   }
   return (
     <div className="border-r-2 bg-[#FAFAFA] dark:bg-black dark:dark:border-[#33383F] border-[#E0E0E0]  h-full overflow-y-scroll no-scrollbar">
