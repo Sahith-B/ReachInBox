@@ -1,4 +1,3 @@
-// SideBar.js
 import { useState } from "react";
 import { RiHome5Fill, RiMailFill} from "react-icons/ri";
 import { IoIosSend } from "react-icons/io";
@@ -8,7 +7,7 @@ import { IoStatsChartSharp } from "react-icons/io5";
 import logo from '../assets/logo.jpg';
 
 function SideBar({ onMenuItemClick }: any) {
-  const [selectedItem, setSelectedItem] = useState('/'); // Initialize with the default path
+  const [selectedItem, setSelectedItem] = useState('/');
 
   const handleMenuItemClick = (path: string) => {
     setSelectedItem(path);
