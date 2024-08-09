@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"; // Import Link from React Router DOM
+import { Link, useNavigate } from "react-router-dom"; 
 import AppBar from "../components/AppBar";
 import google from "../assets/google-logo.png";
 import Footer from "../components/Footer";
@@ -28,7 +28,7 @@ function Login() {
             </div>
             <div
               className="mt-6 border-white/40 border px-20 py-2 text-sm  flex items-center text-[#CCCCCC] rounded-lg cursor-pointer"
-              onClick={handleGoogleLogin} // Call handleGoogleLogin function onClick
+              onClick={handleGoogleLogin} 
             >
               <img src={google} alt="google" className="w-4 mr-3"></img>
               Sign Up with Google
