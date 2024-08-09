@@ -7,11 +7,11 @@ body, html {
   }
   
   .dark {
-    background-color: #1a202c; /* dark mode background color */
-    color: #cbd5e0; /* dark mode text color */
+    background-color: #1a202c; 
+    color: #cbd5e0; 
   }
   
   .light {
-    background-color: #f7fafc; /* light mode background color */
-    color: #1a202c; /* light mode text color */
+    background-color: #f7fafc; 
+    color: #1a202c; 
   }
