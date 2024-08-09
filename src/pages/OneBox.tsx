@@ -42,7 +42,7 @@ function OneBox() {
       <SideBar onMenuItemClick={handleMenuItemClick} />
       <TopBar />
       <div>
-        {/* Render the selected component */}
+        {}
         {selectedComponent === "/" && <SubView />}
         {selectedComponent === "/search" && <SubView />}
         {selectedComponent === "/mail" && <SubView />}
