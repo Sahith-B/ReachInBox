@@ -53,7 +53,6 @@ function MainPage() {
         <AllInbox data={datas} loadMail={loadMail} />
       </div>
       <div className="w-2/4">
-        {/* @ts-ignore */}
         <CenterPage selectedThread={selectedThread} />
       </div>
       <div className="w-1/4">
